@@ -1,38 +1,3 @@
-// import { NavigationContainer } from '@react-navigation/native';
-// import { createStackNavigator} from 'react-navigation-stack';
-// import Trivia from '../screens/trivia.js';
-// import TriviaHeader from '../shared_components/triviaHeader.js';
-// import React from 'react';
-// import Flip from '../shared_components/flipCard.js';
-
-// const screens = {
-//   Trivia: {
-//     screen: Trivia,
-//     // params: {user: 'test'},
-//     navigationOptions: ({navigation}) => {
-//       return {
-//         headerTitle: () => <TriviaHeader navigation={navigation} />
-//       }
-//     }
-//   },
-//   Questions: {
-//     screen:  Flip
-//   }
-// }
-
-// const TriviaStack = createStackNavigator(screens, {
-//   defaultNavigationOptions: {
-//     headerTintColor: 'white',
-//     headerStyle: {backgroundColor: '#25a5dd', height: 100},
-//     headerTitleStyle: {fontSize: 22}
-//   }
-// });
-
-// export default TriviaStack;
-
-//////////////////////////////////////////
-
-
 import { createStackNavigator } from '@react-navigation/stack';
 import Trivia from '../screens/trivia.js';
 import React from 'react';
